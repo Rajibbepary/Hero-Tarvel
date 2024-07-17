@@ -332,12 +332,8 @@ input, select{
   height: 389px;
   background-color:rgba(255, 255, 255, 0.8) ;
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
   transform: translate(-5%, -100%);
-  /* margin-bottom: 30px; */
   margin: -50px 100px;
-  /* margin-bottom: -150px; */
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -387,6 +383,100 @@ input, select{
 .tour-card .bttn{
   margin: 20px 35px;
 }
+
+/* tour section end */
+
+/* popular-section-2 style */
+.popular-section-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.popular-section-2 img{
+  width: 100%;
+  height: 100%;
+}
+.text-content-2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+}
+.text-content-2 p,
+.text-content-2 li{
+  text-align: left;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.text-content-2 h3{
+  text-align: left;
+}
+
+.image-2{
+  position: relative;
+}
+.countary-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transform: translate(-50%,-50%);
+}
+
+/* form-section style */
+.form-section{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+}
+
+.form-div-1{
+  width: 474px;
+  height: 422px;
+  border: 1px solid rgb(255, 84, 0);
+  border-radius: 10px;
+}
+.form-div-1 h4{
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(19, 19, 24);
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.form-div-1 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(90, 90, 93);
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.form-input input{
+  /* position: absolute;
+  display: block; */
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 393px;
+  height: 55px;
+  border: none;
+  margin-left: 30px;
+  background-color:rgba(19, 19, 24, 0.05);
+}
+.btn-2{
+  width: 393px;
+  height: 52px;
+  margin-left: 30px;
+}
+
 /* responsive desing */
 
 @media screen and (max-width:550px) {
@@ -433,4 +523,6 @@ input, select{
     .expolore-container{
       margin-bottom: 50px;
     }
+
+
 }
